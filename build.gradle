@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'org.jetbrains.intellij' version '0.4.21'
+//    id 'org.openjfx.javafxplugin' version '0.0.8'
 }
 
 group 'ru.murat.dautov'
@@ -14,15 +15,16 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-//    compile 'com.google.api-client:google-api-client:1.23.0'
-//    compile 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
-//    compile 'com.google.apis:google-api-services-youtube:v3-revREVISION-CL_VERSION'
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version '2019.3.4'
 }
+//javafx {
+//    version = "13"
+////    modules = [ 'javafx.controls', 'javafx.fxml' ]
+//}
 patchPluginXml {
     changeNotes """
       Add change notes here.<br>

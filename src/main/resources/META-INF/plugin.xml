@@ -15,5 +15,12 @@
 
     <actions>
         <!-- Add your actions here -->
+
+<!--        <action id="SimpleAction" class="SimpleAction" text="SimpleAction" description="sa">-->
+<!--            <add-to-group group-id="ToolsMenu" anchor="first"/>-->
+<!--        </action>-->
+        <action id="SimpleAction" class="SimpleAction" text="SetImage" description="Set image">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>
